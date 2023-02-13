@@ -1,0 +1,96 @@
+
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .wrapper {
+    border: 1px solid black;
+    padding: 20px;
+    }
+    
+    .posts-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+  .post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+
+  .post h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .post p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .comments {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .comments h4 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .comments-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  #modalContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #closeModal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #closeModal:hover,
+  #closeModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
